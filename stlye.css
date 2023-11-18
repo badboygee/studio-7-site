@@ -1,0 +1,82 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.hero{
+background-image: url(images/peelivis.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-color: rgba(0,0,0,0.80);
+background-blend-mode: overlay;
+height: 80vh;
+
+}
+.one{ 
+    display: flex;
+
+}
+
+.one li{
+    padding-left: 20px;
+
+}
+.one li a{
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+}
+
+.one li a:hover{
+
+    color: purple;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+
+}
+.icon img{
+    width: 90px;
+    
+}
+
+.content{
+   
+    text-align: center;
+    
+}
+
+.content p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.content label{
+    text-decoration: none;
+    color: black;
+    font-weight:900;
+    background-color: #bf9563;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+.content a:hover{
+    background-color: gray;
+}
+.content select{
+    font-size: 17px;
+    font-family: cursive;
+    color: black;
+    outline: none;
+}
+
+.content option { 
+    background-color: rgba(0,0,0,0.80);
+}
